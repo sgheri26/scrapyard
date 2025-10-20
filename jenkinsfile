@@ -13,10 +13,7 @@ pipeline {
     disableConcurrentBuilds()
   }
 
-  triggers {
-
-  }
-
+  
   stages {
     stage('Checkout') {
       steps {
