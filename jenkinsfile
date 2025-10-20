@@ -8,7 +8,7 @@ pipeline {
   }
 
   options {
-    // Keep console logs neat and stop parallel runs of the same branch
+   
     timestamps()
     disableConcurrentBuilds()
   }
