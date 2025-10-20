@@ -14,8 +14,7 @@ pipeline {
   }
 
   triggers {
-    // If you don't use a GitHub webhook, uncomment:
-    // pollSCM('H/5 * * * *')
+
   }
 
   stages {
