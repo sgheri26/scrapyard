@@ -26,6 +26,7 @@ pipeline {
         sh '''
           docker compose version
           # Build and (re)create containers in the background
+          docker compose build --build-arg COMMIT=${COMMIT}
           docker compose up -d --build
           docker compose ps
         '''
